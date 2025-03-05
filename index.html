@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Dave - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        header div {
+            text-align: left;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+            header img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            header div {
+                text-align: center;
+            }
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="profile.jpg" alt="Profile picture">
+        <div>
+            <h1>Vaibhav Dave</h1>
+            <h2>Web Developer</h2>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h3>About Me</h3>
+        <p>Hey there! I'm Vaibhav Dave, a passionate Software Engineer and Developer with a strong foundation in Python, FastAPI, SQL, and Web Development. Currently pursuing my B.Tech in Computer Science at GSFC University, I love building projects, solving complex problems, and continuously improving my coding skills.<br>
+        I've worked on AI applications, backend development, automation, and database management, and I enjoy exploring new technologies to enhance my expertise.<br>
+        Beyond coding, I enjoy playing chess and basketball, and I'm always up for a tech discussion or collaboration on exciting projects. Feel free to connect with me on LinkedIn or check out my GitHub profile to see my work.
+    </p>
+    </section>
+    <section id="education">
+        <h3>Education</h3>
+        <ul>
+            <li>GSFC University, Gujarat, India - Bachelor of Technology - Computer Science and Engineering, July 2021 - June 2025</li>
+            <li>Kokilaben Dhirubhai Ambani Reliance Foundation School, Gujarat, India - Senior Secondary Education - PCM with IT - 81.6%, June 2020 - July 2021</li>
+            <li>Kokilaben Dhirubhai Ambani Reliance Foundation School, Gujarat, India - Secondary Education - 74.8%, June 2018 - May 2019</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h3>Skills</h3>
+        <ol>
+            <li>JAVA</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>TypeScript</li>
+            <li>GIT</li>
+            <li>JavaScript</li>
+            <li>Leadership</li>
+            <li>Writing</li>
+            <li>Time Management</li>
+        </ol>
+    </section>
+    <footer>
+        <p>
+            <a href="https://www.linkedin.com/in/vaibhavdavedev/">LinkedIn</a> | 
+            <a href="https://github.com/VaibhavDaveDev">GitHub</a> | 
+            <a href="https://x.com/i/flow/login">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
